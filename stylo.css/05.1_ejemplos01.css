@@ -1,0 +1,144 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+html{
+    background: white;   
+}
+body{  
+    
+    height: 100%;
+
+}
+
+.header{
+    height: 240px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.logoELP{
+    height: 160px;
+    width: 330px;
+    object-fit: cover;
+    transition-property: box-shadow;
+    transition-duration:0.65s;
+    border-radius: 20px;
+}
+.logoELP:hover{
+    box-shadow: -40px 20px 26px -2px rgba(0,0,0,0.36);
+}
+ 
+iframe{
+    height: 220px;
+    width: 540px;
+    border: 5px solid #039BE5 ;
+    transition-property: border;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+
+.foto-2{
+    height: 160px;
+    width: 330px;
+    object-fit: cover;
+    transition-property: box-shadow;
+    transition-duration:0.65s;
+    border-radius: 20px;
+}
+.foto-2:hover{
+    box-shadow: 0px 30px 56px -2px rgba(0,0,0,0.36);
+
+}
+nav{
+    background-color: #1F618D ;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between ;
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+nav ul li{
+    padding: 25px;
+    list-style-type: none;
+
+}
+.Lista1_a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 20px;
+    outline-offset: -2px;
+    font-family:"Bahnschrift SemiBold";
+    outline: 0;
+    transition-property: inherit;
+    transition-duration: 0.5s;
+    outline-offset: -7px;
+}
+.Lista1_a:hover{
+
+    outline: 4px solid #1F618D;
+    background-color: white;
+    color: #1F618D   ;
+    border-radius: 30px;
+}
+main{
+    height: 58%;      
+}
+
+.pie{
+    margin-top: 50px;
+}
+.piegrande{
+    width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confi{
+    list-style-type: none;
+    padding: 0px 40px;
+    transition-duration: 0.5s;
+}
+
+.piegrande_a{
+    font-family: "Bahnschrift SemiBold";
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0 10px;
+    transition-property: border-bottom;
+    
+}
+.a1:hover{
+    border-bottom: 8px solid rgb(230, 52, 76);      
+}
+.a2:hover{
+    border-bottom: 8px solid rgb(231, 231, 9);
+}
+.a3:hover{
+    border-bottom: 8px solid rgb(31, 162, 238);
+}
+.a4:hover{
+    border-bottom: 8px solid rgb(202, 19, 59);   
+}
+.a5:hover{
+    border-bottom: 8px solid rgb(42, 118, 233);
+}
+.a6:hover{
+    border-bottom: 8px solid rgb(231, 231, 9);
+}
+
+.cajagrande{
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 220px;
+}

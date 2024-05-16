@@ -1,0 +1,297 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+html{
+	background: white
+    
+}
+body{
+
+}
+.header{
+    height: 240px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+.foto-1{
+    height: 160px;
+    width: 330px;
+    object-fit: cover;
+    transition-property: box-shadow;
+    transition-duration:0.65s;
+    border-radius: 20px;
+ 
+}
+.foto-1:hover{
+    box-shadow: -40px 20px 26px -2px rgba(0,0,0,0.36);
+}
+
+.foto-2{
+    height: 160px;
+    width: 330px;
+    object-fit: cover;
+    transition-property: box-shadow;
+    transition-duration:0.65s;
+    border-radius: 20px;
+
+}
+.foto-2:hover{
+    box-shadow: 0px 30px 56px -2px rgba(0,0,0,0.36);
+}
+
+iframe{
+    height: 220px;
+    width: 540px;
+    border: 5px solid #039BE5 ;
+    transition-property: border;
+    transition-duration: 1s;
+    border-radius: 20px;
+   
+}
+nav{
+    background-color: #1F618D;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between ;
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+nav ul li{
+    padding: 25px;
+    list-style-type: none;
+
+}
+
+.Lista1_a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 20px;
+    outline-offset: -2px;
+    font-family:"Bahnschrift SemiBold" ;
+    outline: 0;
+    transition-property: inherit;
+    transition-duration: 0.5s;
+    outline-offset: -7px;
+}
+.Lista1_a:hover{
+
+    outline: 4px solid #1F618D   ;
+    background-color: white;
+    color: #1F618D   ;
+    border-radius: 30px;
+}
+
+main{
+    height: auto;
+            
+}
+
+main h1{
+    color: rgb(2, 82, 156);    
+    margin: 90px 50px 0px 50px;
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    text-shadow: -10px 10px 5px rgb(187, 187, 187);
+    transition-property: text-shadow;
+    transition-duration: 0.7s;
+}
+main h1:hover{
+    text-shadow: -10px 10px 5px rgb(135, 156, 172);
+}
+.container-main{
+    display: flex;
+    max-width: 1300px;
+    margin: 10px 300px;
+    gap: 200px;
+    font-family: "Rockwell Condensed";
+    font-size: 15px;
+}
+.canales{
+    border-radius: 10px;
+    box-shadow: 40px 38px 26px -6px rgba(0,0,0,0.36);
+    height: 300px;
+    width: 450px;
+}
+
+.container-Max{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    margin-top: 80px ;
+}
+.texto-1{
+  text-align: justify;
+  border: 0;
+  font-family: "Bahnschrift";
+  font-size: 18px;
+  
+}
+.texto-2{
+  text-align: justify;
+  border: 0;
+  font-family: "Bahnschrift";
+  font-size: 18px;
+}
+
+.pie{
+    margin-top: 100px;
+}
+
+.piegrande{
+    width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piegrande_a{
+    font-family: "Bahnschrift SemiBold";
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0 10px;  
+}
+
+.confi{
+            list-style-type: none;
+            padding: 0px 40px;
+            transition-duration: 0.5s; 
+}
+
+.a1:hover{
+    border-bottom: 8px solid rgb(0, 143, 187);
+    
+    
+}
+.a2:hover{
+    border-bottom: 8px solid rgb(0, 143, 187);
+    
+    
+}
+.a3:hover{
+    border-bottom: 8px solid yellow;
+    
+}
+.a4:hover{
+    border-bottom: 8px solid rgb(0, 143, 187);
+    
+    
+}
+.a5:hover{
+    border-bottom: 8px solid rgb(0, 143, 187);
+    
+    
+}
+.a6:hover{
+    border-bottom: 8px solid rgb(0, 143, 187);
+    
+    
+}
+.subtitulo2{
+    margin-top: 100px;
+    text-align: center;
+    color: purple ;
+
+}
+
+.imagen3{
+    border-radius: 10px;    
+    height: 800px;
+    width: 450px;
+    height: 300px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+.imagen3:hover{
+    box-shadow: 40px 38px 26px -6px rgba(0,0,0,0.36);
+
+}
+.imagen1{
+    border-radius: 10px;    
+    height: 800px;
+    width: 450px;
+    height: 300px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+
+}
+.imagen1:hover{
+    box-shadow: 40px 38px 26px -6px rgba(0,0,0,0.36);
+
+}
+
+.boton1{
+    justify-content: space-between ;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px; 
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition-property: initial;
+    transition-duration: 0.5s;
+
+}
+.boton1:hover{
+    outline: 4px solid rgb(192, 41, 41);
+    background-color: rgb(241, 234, 234);
+    color: rgb(175, 9, 9);
+    border-radius: 30px;
+}
+
+.boton2{
+
+    justify-content: space-between ;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px; 
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition-property: initial;
+    transition-duration: 0.5s;
+    
+}
+.boton2:hover{
+    outline: 4px solid rgb(192, 41, 41);
+    background-color: rgb(241, 234, 234);
+    color: rgb(175, 9, 9);
+    border-radius: 30px;
+
+} 
+.boton3{
+    justify-content: space-between ;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px; 
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition-property: initial;
+    transition-duration: 0.5s;
+
+}
+.boton3:hover{
+    outline: 4px solid rgb(192, 41, 41);
+    background-color: rgb(241, 234, 234);
+    color: rgb(175, 9, 9);
+    border-radius: 30px;
+}
+
+
+
+   
+
+
