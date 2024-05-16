@@ -43,8 +43,8 @@ iframe{
 }
 
 .foto-2{
-    height: 160px;
-    width: 330px;
+    height: 200px;
+    width: 430px;
     object-fit: cover;
     transition-property: box-shadow;
     transition-duration:0.65s;
@@ -139,6 +139,19 @@ main{
     display: flex;
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 220px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.niños{
+    margin: 0 50px ;
+
+}
+.texto1{
+    text-align: justify;
+    font-size: 22px;
+}
+.imagenjemplos{
+    width: 370px;
+    height: 280px;
+    margin: 20px 10px;
 }

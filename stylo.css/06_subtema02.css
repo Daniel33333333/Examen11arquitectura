@@ -43,8 +43,8 @@ iframe{
 }
 
 .foto-2{
-    height: 160px;
-    width: 330px;
+    height: 200px;
+    width: 430px;
     object-fit: cover;
     transition-property: box-shadow;
     transition-duration:0.65s;

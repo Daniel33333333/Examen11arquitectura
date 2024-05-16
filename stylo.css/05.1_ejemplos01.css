@@ -139,6 +139,15 @@ main{
     display: flex;
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 220px;
+    text-align: justify;
+    font-size: 25px;
+}
+.niños{
+    margin: 0px 50px;
+}
+.imagenjemplos{
+    margin-top: 60px;
+    
 }

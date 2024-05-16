@@ -29,8 +29,8 @@ body{
     box-shadow: -40px 20px 26px -2px rgba(0,0,0,0.36);
 }
 .foto-2{
-    height: 160px;
-    width: 330px;
+    height: 200px;
+    width: 430px;
     object-fit: cover;
     transition-property: box-shadow;
     transition-duration:0.65s;
@@ -83,6 +83,7 @@ nav ul li{
     color: rgb(9, 61, 175);
     border-radius: 30px;
 }
+
 main{
 
 }
@@ -93,30 +94,30 @@ main{
 }
 .texto-2{
     text-align: justify;
-    
     font-family: "Bahnschrift" ;
 }
 .texto-3{
     text-align: justify;
-    
     font-family: "Bahnschrift" ;
 }
+
 .foto-3{
-    height: 120px;
-    width: 280px;
+    height: 220px;
+    width: 320px;
     object-fit: cover;
     border-radius: 25px;
 
 }
+
 .foto-4{
-    height: 120px;
-    width: 280px;
+    height: 220px;
+    width: 320px;
     object-fit: cover;
     border-radius: 25px;
 }
 .foto-5{
-    height: 120px;
-    width: 280px;
+    height: 220px;
+    width: 320px;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -124,16 +125,16 @@ main{
     display: flex;
     align-items: left;
     justify-content: center;
-    height: 600px;
+    height: 800px;
     flex-direction: column; 
     margin-left: 130px;
     margin-top: 50px;
+
 }
 
 .contenido {
     display: flex;
     margin: 20px 0;
-
     align-items: center;
     gap: 50px;
 }
@@ -142,6 +143,7 @@ main{
     max-width: 700px; 
     word-wrap: break-word;
     text-align: justify;
+    font-size: 20px;
 }
 
 .audio-1{
