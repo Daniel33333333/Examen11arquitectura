@@ -19,6 +19,7 @@ html{
     justify-content: space-around;
     padding: 40px 20px;
     flex-wrap: wrap;
+    background-color: #eeeeee;
     
    
 }
@@ -43,18 +44,19 @@ html{
 
 .foto-2 {
     object-fit: cover;
-    max-height: 130px;
-    max-width: 270px;
+    max-height: 120px;
+    
     border-radius: 20px;
     transition-property: box-shadow, max-height;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
 }
 
 
 
 .foto-2:hover {
     box-shadow: 0px 30px 56px -2px rgba(0,0,0,0.36);
-    max-height: 160px;
+    max-height: 200px;
+
 }
 
 iframe {
@@ -69,7 +71,7 @@ iframe {
 }
 
 iframe:hover{
-    max-height: 150px;
+    max-height: 190px;
     max-width: 280px;
 
 }
@@ -111,7 +113,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 546px) {
+@media (max-width: 565px) {
     .header {
         padding: 0;
         gap: 0;
@@ -132,9 +134,11 @@ nav ul li a:hover {
     }
    .lista1{
     flex-direction: column;
+    align-items: center;
    }
    .lista1 a{
     padding: 12px;
+    
    }
    .lista1 li{
     padding: 10px
@@ -144,7 +148,7 @@ nav ul li a:hover {
    }
 }
 main {
-    padding: 20px;
+    padding: 30px;
     max-width: 100%; /* Asegura que el main no exceda el ancho de la pantalla */
 }
 
@@ -235,17 +239,23 @@ main .subtitulo1:hover, main .subtitulo2:hover {
     .container-main {
         grid-template-columns: 1fr; 
         text-align: center;
+       place-items: center;
     }
 
-    .figcap, .imagen3, {
+    .figcap{
         max-width: 100%;
     }
-
-    .imagen4{
-        object-fit: contain;
-        max-height: 180px;
-        border-radius: 20px;
+    .subtitulo2, .subtitulo1{
+        padding: 10px;
     }
+    .imagen3, .imagen4 {
+        object-fit: cover;
+        height: 140px;
+        width:240px;
+        border-radius: 40px;
+    }
+
+   
 }
 
 .pie {
@@ -321,7 +331,41 @@ main .subtitulo1:hover, main .subtitulo2:hover {
 .lista1{
     margin: 0;
 }
+@media (max-width: 565px) {
+    .piegrande{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .confi{
+        padding: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .piegrande_a{
+        padding: 5px;
+    }
+}
 
+.fondo {
+    position: relative;
+    padding-top: 20px;
+    
+}
+
+.fondo::before {
+    content: "";
+    background: url('../TEXTO.html/121.png'); 
+    opacity: 0.09; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat;
+    width: 100%;
+    background-size: contain;
+}
    
 
 
