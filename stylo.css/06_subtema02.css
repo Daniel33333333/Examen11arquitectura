@@ -1,3 +1,6 @@
+
+
+/* Cambios generales */
 *{ 
     padding: 0px;
     margin: 0px;
@@ -6,6 +9,8 @@
 html{
     background: white;   
 }
+
+/*Header configuraciones*/
 .comun{
     
     flex-basis: 100px;
@@ -75,10 +80,24 @@ iframe:hover{
     max-width: 280px;
 
 }
+header {
+    
+    height: auto;
+}
+
+/*Nav configuraciones*/
+
+nav {
+    position: sticky;  /*Configuracion para que el nav baje*/
+    top: 0;
+    box-shadow: -1px 8px 37px -12px rgba(0,0,0,0.72);
+    z-index: 1000; 
+}
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +120,6 @@ nav ul li a {
     font-style: normal;
     outline-offset: -7px;
     transition: all 0.4s ease; 
-    
 }
 
 nav ul li a:hover {
@@ -113,6 +131,8 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+
+/*Media Query 1 Configuracion de elementos hasta un maximo de 565px (header y nav config)*/
 @media (max-width: 565px) {
     .header {
         padding: 0;
@@ -143,10 +163,17 @@ nav ul li a:hover {
    .lista1 li{
     padding: 10px
    }
-   main{
-    padding: 35px;
+   
+    nav{
+     position: relative;
    }
 }
+
+
+
+/*Main Configuration*/
+
+
 main {
     padding: 30px;
     max-width: 100%; /* Asegura que el main no exceda el ancho de la pantalla */
@@ -234,7 +261,7 @@ main .subtitulo1:hover, main .subtitulo2:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+/*MediaQuery 2 Configuracion de los elementos hasta un maximo de 768px (Config Main)*/
 @media (max-width: 768px) {
     .container-main {
         grid-template-columns: 1fr; 
@@ -257,7 +284,7 @@ main .subtitulo1:hover, main .subtitulo2:hover {
 
    
 }
-
+/*Pie de pagina o footer*/
 .pie {
     background-color: #2C3E50;
     color: white;
@@ -331,6 +358,8 @@ main .subtitulo1:hover, main .subtitulo2:hover {
 .lista1{
     margin: 0;
 }
+
+/*MediaQuery 3 Configuracion de los elementos hasta un maximo de 565px (Config nav del pie de pagina)*/
 @media (max-width: 565px) {
     .piegrande{
         flex-direction: column;
@@ -345,7 +374,7 @@ main .subtitulo1:hover, main .subtitulo2:hover {
         padding: 5px;
     }
 }
-
+/*Imagen de fondo configuration*/
 .fondo {
     position: relative;
     padding-top: 20px;
@@ -355,7 +384,7 @@ main .subtitulo1:hover, main .subtitulo2:hover {
 .fondo::before {
     content: "";
     background: url('../TEXTO.html/121.png'); 
-    opacity: 0.09; 
+    opacity: 0.06; 
     top: 0;
     left: 0;
     bottom: 0;
